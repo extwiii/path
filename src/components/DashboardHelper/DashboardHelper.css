@@ -1,0 +1,12 @@
+.DashboardHelper-section {
+  background-color: rgb(66, 20, 95);
+  height: 200px;
+  color: white;
+  padding: 20px;
+}
+
+@media (min-width: 900px) {
+  .DashboardHelper-section {
+    height: 100px;
+  }
+}

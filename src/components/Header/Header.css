@@ -1,0 +1,19 @@
+.Dashboard-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  z-index: 10;
+  background: white;
+  padding: 0px 45px;
+  height: 66px;
+}
+
+@media (min-width: 900px) {
+  .Dashboard-header {
+    height: 80px;
+    transform: translate3d(0px, 0px, 0px);
+    z-index: 1000;
+    transition: transform 0.2s ease-out 0.2s;
+  }
+}

@@ -1,0 +1,17 @@
+.Dashboard-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #eee;
+  flex-wrap: wrap;
+  max-height: 512px;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+@media (min-width: 900px) {
+  .Dashboard-section {
+    max-width: 1024px;
+    margin: 0px auto;
+  }
+}
